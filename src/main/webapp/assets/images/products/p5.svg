@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fce7f3"/>
+      <stop offset="1" stop-color="#f9a8d4"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#831843" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="640" height="480" rx="0" fill="url(#bg)"/>
+  <circle cx="540" cy="70" r="150" fill="#ffffff" opacity="0.22"/>
+  <circle cx="80" cy="430" r="130" fill="#ffffff" opacity="0.16"/>
+  <path d="M0 380 C140 330 230 420 370 380 S560 330 640 370 V480 H0 Z" fill="#ffffff" opacity="0.18"/>
+  <g filter="url(#shadow)">
+    <rect x="190" y="105" width="260" height="210" rx="34" fill="#ffffff" opacity="0.72"/>
+    <text x="320" y="250" font-size="128" text-anchor="middle">🎸</text>
+  </g>
+  <text x="320" y="372" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="30" font-weight="700" fill="#831843" text-anchor="middle">尤克里里</text>
+  <text x="320" y="408" font-family="Segoe UI, sans-serif" font-size="13" letter-spacing="4" fill="#831843" opacity="0.62" text-anchor="middle">CAMPUS SECOND-HAND</text>
+</svg>
